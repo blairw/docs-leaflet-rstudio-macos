@@ -1,6 +1,8 @@
 # docs-leaflet-rstudio-macos
 Documentation for how to get Leaflet working in RStudio on macOS (tested on Apple Silicon)
 
+&emsp;  
+
 ## Instructions
 
 Step 1.
@@ -8,6 +10,8 @@ Step 1.
 - If you do not have this already, set up Homebrew, a _package manager_ which will help install the additional components we need to get Leaflet up and running in RStudio on macOS.
 - Visit https://brew.sh/ for instructions.
 - Note that this step is to be done in the **macOS Terminal**, not RStudio console. See [Apple documentation for how to run the macOS Terminal](https://support.apple.com/en-ie/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac).
+
+&emsp;  
 
 Step 2.
 
@@ -17,6 +21,8 @@ Step 2.
     brew install gdal proj
     ```
 - Note that this step is to be done in the **macOS Terminal**, not RStudio console.
+
+&emsp;  
 
 Step 3.
 
@@ -29,6 +35,8 @@ Step 3.
 - The additional configurations are required to link up to the components installed by Homebrew.
 - Note that this step is to be done in the **RStudio console**, not macOS Terminal.
 
+&emsp;  
+
 Step 4.
 
 - If step 3 above ran successfully, now run the following to finally install Leaflet:
@@ -38,6 +46,8 @@ Step 4.
     ```
 
 - Note that this step is to be done in the **RStudio console**, not macOS Terminal.
+
+&emsp;  
 
 ## Acknowledgements
 
