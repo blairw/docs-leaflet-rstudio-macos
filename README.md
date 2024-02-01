@@ -18,7 +18,7 @@ Step 2.
 
 Step 3.
 
-- If GDAL was successfully installed using Homebrew, then go to the RStudio console, and run this command to install [terra](https://cran.r-project.org/web/packages/terra/index.html), which is required for Leaflet to work:
+- If GDAL and PROJ were successfully installed using Homebrew, then go to the RStudio console, and run this command to install [terra](https://cran.r-project.org/web/packages/terra/index.html), which is required for Leaflet to work:
 
     ```r
     install.packages("terra", type = "source", configure.args = c("--with-sqlite3-lib=/opt/homebrew/opt/sqlite/lib", "--with-proj-lib=/opt/homebrew/opt/proj/lib"))
